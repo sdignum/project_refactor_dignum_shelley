@@ -38,9 +38,6 @@ a {
     color: #5E5E5E;
 }
 
-a:hover {
-}
-
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
@@ -51,10 +48,6 @@ a:hover {
 }
 
 /* Header */
-
-#header-wrapper {
-    overflow: hidden;
-}
 
 #header {
     width: 100%;
