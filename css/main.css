@@ -336,10 +336,19 @@ input[type=checkbox]:checked ~ .menu {
         float: left;
     }
 
+    #logo h1 {
+        line-height: 3.2em;
+    }
+
     #menu {
         width: 60%;
         margin-top: 27px;
         float: right;
+    }
+
+    #menu ul {
+        float: right;
+        padding: 20px 0px 0px 0px;
     }
 
     #menu a {
