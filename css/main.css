@@ -310,11 +310,13 @@ input[type=checkbox]:checked ~ .menu {
 #banner {
     margin: 0px auto;
     width: 100%;
-    background: url(../img/img03.png) no-repeat left bottom;
 }
 
 @media (min-width: 483px) {
-
+    #banner {
+        width: 90%;
+    }
+    
     .show-menu {
         display: none;
     }
@@ -378,7 +380,7 @@ input[type=checkbox]:checked ~ .menu {
 
 @media (min-width: 860px) {
     #banner {
-        width: 90%;
+        max-height: 550px;
     }
 
     #content {
@@ -409,4 +411,5 @@ input[type=checkbox]:checked ~ .menu {
         margin-right: 0px;
         margin-left: 20px;
     }
+
 }
