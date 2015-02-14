@@ -205,7 +205,7 @@ input[type=checkbox]:checked ~ .menu {
 
 .more, .comments {
     width: 100%;
-    padding: 20px 20px;
+    padding: 10px 20px;
     margin-right: 10px;
     background: #222222;
     color: #FFFFFF;
@@ -406,14 +406,5 @@ input[type=checkbox]:checked ~ .menu {
         margin-bottom: 30px;
     }
 
-    .links {
-        float: right;
-        margin-bottom: 40px;
-    }
-
-    .more, .comments {
-        margin-right: 0px;
-        margin-left: 20px;
-    }
 
 }
