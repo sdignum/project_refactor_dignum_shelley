@@ -312,3 +312,23 @@ input[type=checkbox]:checked ~ .menu {
     width: 100%;
     background: url(../img/img03.png) no-repeat left bottom;
 }
+
+@media (min-width: 500px) {
+    #menu {
+        width: 90%;
+    }
+
+    .show-menu {
+        display: none;
+    }
+
+    #menu ul {
+        display: block;
+    }
+
+    #menu li {
+        float: left;
+        margin-bottom: 0;
+    }
+
+}
