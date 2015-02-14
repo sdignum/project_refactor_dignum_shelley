@@ -316,9 +316,13 @@ input[type=checkbox]:checked ~ .menu {
     #banner {
         width: 90%;
     }
-    
+
     .show-menu {
         display: none;
+    }
+
+    #menu {
+        width: 90%;
     }
 
     #menu ul {
