@@ -313,10 +313,7 @@ input[type=checkbox]:checked ~ .menu {
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
-@media (min-width: 500px) {
-    #menu {
-        width: 90%;
-    }
+@media (min-width: 483px) {
 
     .show-menu {
         display: none;
