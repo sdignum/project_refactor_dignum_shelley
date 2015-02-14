@@ -49,7 +49,7 @@ a:hover {
 }
 
 .container {
-    width: 1000px;
+    width:100%;
     margin: 0px auto;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 }
 
 #header {
-    width: 1000px;
+    width: 100%;
     height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
@@ -70,7 +70,7 @@ a:hover {
 
 #logo {
     float: left;
-    width: 300px;
+    width: 100%;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -80,7 +80,7 @@ a:hover {
 }
 
 #logo h1 {
-    line-height: 120px;
+    line-height: 2.7em;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -110,59 +110,12 @@ a:hover {
     color: #000000;
 }
 
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
-}
 
 /* Menu */
 
 #menu {
     float: right;
-    width: 500px;
-    height: 90px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
 }
@@ -181,7 +134,7 @@ a:hover {
 
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 6em;
     margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
@@ -207,7 +160,7 @@ a:hover {
 /* Page */
 
 #page {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 0px;
 }
@@ -216,7 +169,7 @@ a:hover {
 
 #content {
     float: right;
-    width: 660px;
+    width: 100%;
     padding: 0px 0px 0px 0px;
 }
 
@@ -270,7 +223,7 @@ a:hover {
 .more {
     display: block;
     float: left;
-    width: 88px;
+    width: 100%;
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
@@ -282,7 +235,7 @@ a:hover {
 .comments {
     display: block;
     float: left;
-    width: 88px;
+    width: 100%;
     padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
@@ -294,7 +247,7 @@ a:hover {
 
 #sidebar {
     float: left;
-    width: 270px;
+    width: 100%;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
@@ -378,68 +331,6 @@ a:hover {
     text-align: right;
 }
 
-/* Three Column Footer Content */
-
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-#footer-content a {
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
-}
 
 /* Footer */
 
@@ -465,45 +356,10 @@ a:hover {
     color: #5E5E5E;
 }
 
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
+    width: 100%;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
