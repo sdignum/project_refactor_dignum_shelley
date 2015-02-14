@@ -329,3 +329,35 @@ input[type=checkbox]:checked ~ .menu {
     }
 
 }
+
+@media (min-width: 742px) {
+    #logo {
+        width: 40%;
+        float: left;
+    }
+
+    #menu {
+        width: 60%;
+        margin-top: 27px;
+        float: right;
+    }
+
+    #menu a {
+        line-height: 5em;
+    }
+
+    #sidebar li {
+        margin-right: 8px;
+        float: left;
+        width: 32%;
+    }
+
+    #sidebar li li {
+        width: 100%;
+    }
+
+    #sidebar li li a {
+        padding-right: 10px;    
+    }
+
+}
