@@ -34,9 +34,6 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
 }
@@ -284,27 +281,6 @@ input[type=checkbox]:checked ~ .menu {
     text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
 
 /* Footer */
 
@@ -335,18 +311,4 @@ input[type=checkbox]:checked ~ .menu {
     margin: 0px auto;
     width: 100%;
     background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner .content {
-}
-
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
 }
