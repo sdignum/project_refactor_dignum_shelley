@@ -277,14 +277,14 @@ aside a:hover {
 
 /* Footer */
 
-#footer {
+footer {
     height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
     margin: 0;
     padding-top: 10px;
     letter-spacing: 1px;
@@ -295,7 +295,7 @@ aside a:hover {
     color: #5E5E5E;
 }
 
-#footer a {
+footer a {
     color: #5E5E5E;
 }
 
