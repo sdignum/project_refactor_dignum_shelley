@@ -304,6 +304,9 @@ footer a {
     margin: 0px auto;
     width: 100%;
 }
+#banner img {
+    width: 100%;
+}
 
 @media (min-width: 483px) {
     #banner {
